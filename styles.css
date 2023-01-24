@@ -6,14 +6,17 @@ body{
 }
 header{
   background-color: white;
-  max-width: 600px;
+  max-width: 1000px;
+  margin: auto;
 }
 main{
   background-color: white;
-  max-width: 600px;
+  max-width: 1000px;
+  margin: auto;
 }
 footer{
   background-color: white;
-  max-width: 600px;
+  max-width: 1000px;
+  margin: auto;
 }
 

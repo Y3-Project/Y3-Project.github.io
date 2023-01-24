@@ -1,6 +1,6 @@
 
 body{
-  background: url("https://s3-us-west-1.amazonaws.com/realisticshots/87.jpg") no-repeat center center fixed;
+  background: url("https://s3-us-west-1.amazonaws.com/realisticshots/87.jpg") no-repeat center center scroll;
   background-size: cover;
   color: black;
 }

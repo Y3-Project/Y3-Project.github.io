@@ -2,6 +2,18 @@
 body{
   background: url("https://s3-us-west-1.amazonaws.com/realisticshots/87.jpg") no-repeat center center fixed;
   background-size: cover;
-  color: chocolate;
+  color: black;
+}
+header{
+  background-color: white;
+  max-width: 600px;
+}
+main{
+  background-color: white;
+  max-width: 600px;
+}
+footer{
+  background-color: white;
+  max-width: 600px;
 }
 

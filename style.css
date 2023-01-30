@@ -15,14 +15,19 @@ body {
   
   /* Add a responsive grid layout */
   .container {
-    max-width: 1200px; /* Set max width for container */
+    width: 100%; /* Set max width for container */
     margin: 0 auto; /* Center container on page */
     display: grid; /* Use grid layout */
     grid-template-columns: repeat(12, 1fr); /* Create 12 equal columns */
   }
   
   /* Use popular font for headings */
-  h1, h2, h3 {
+  h1, h2, h3{
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1px;
+  }
+
+  .colored-header{
+    color: #03A9F4;
   }
 

@@ -1,0 +1,4 @@
+const gifElement = document.getElementById("eye");
+gifElement.addEventListener("load", function () {
+    gifElement.style.display = "none";
+});

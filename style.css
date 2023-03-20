@@ -3,8 +3,14 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     margin: 0; /* Remove default margin */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
-  
+
+footer{
+  margin-top: auto;
+}  
   /* Add a modern color scheme */
   :root {
     --primary-color: #0077C8;
@@ -22,7 +28,19 @@ body {
   }
   
   /* Use popular font for headings */
-  h1, h2, h3{
+  h1{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1px;
+  }
+
+  h2{
+    color: #0077C8;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1px;
+  }
+
+  h3{
+    color: #F5A623;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 1px;
   }

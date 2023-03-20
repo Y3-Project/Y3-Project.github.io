@@ -1,64 +1,74 @@
 /* Set font for entire page */
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    margin: 0; /* Remove default margin */
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  /* Remove default margin */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
-footer{
+footer {
   margin-top: auto;
-}  
-  /* Add a modern color scheme */
-  :root {
-    --primary-color: #0077C8;
-    --secondary-color: #F5A623;
-    --light-color: #F8F9FA;
-    --dark-color: #343A40;
-  }
-  
-  /* Add a responsive grid layout */
-  .container {
-    width: 100%; /* Set max width for container */
-    margin: 0 auto; /* Center container on page */
-    display: grid; /* Use grid layout */
-    grid-template-columns: repeat(12, 1fr); /* Create 12 equal columns */
-  }
-  
-  /* Use popular font for headings */
-  h1{
-    font-family: 'Montserrat', sans-serif;
-    margin-bottom: 1px;
-  }
+}
 
-  h2{
-    color: #0077C8;
-    font-family: 'Montserrat', sans-serif;
-    margin-bottom: 1px;
-  }
+/* Add a modern color scheme */
+:root {
+  --primary-color: #0077C8;
+  --secondary-color: #F5A623;
+  --light-color: #F8F9FA;
+  --dark-color: #343A40;
+}
 
-  h3{
-    color: #F5A623;
-    font-family: 'Montserrat', sans-serif;
-    margin-bottom: 1px;
-  }
+/* Add a responsive grid layout */
+.container {
+  width: 100%;
+  /* Set max width for container */
+  margin: 0 auto;
+  /* Center container on page */
+  display: grid;
+  /* Use grid layout */
+  grid-template-columns: repeat(12, 1fr);
+  /* Create 12 equal columns */
+}
 
-  .colored-header{
-    color: #03A9F4;
-  }
+/* Use popular font for headings */
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 1px;
+}
 
-  a {
-    color: white;
-    text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    margin: 0; /* Remove default margin */
-    font-weight: bold;
-  }
+h2 {
+  color: #0077C8;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 1px;
+}
 
-  a:hover {
-    color: #03A9F4; /* Change the color of the link text when hovering over it */
-  }
+h3 {
+  color: #F5A623;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 1px;
+}
 
+
+.colored-header {
+  color: #03A9F4;
+}
+
+.emphasized { font-style: italic; }
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  /* Remove default margin */
+  font-weight: bold;
+}
+
+a:hover {
+  color: #03A9F4;
+  /* Change the color of the link text when hovering over it */
+}

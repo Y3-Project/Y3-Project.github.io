@@ -1,0 +1,121 @@
+/* Set font for entire page */
+body {
+  background-image: url('images/background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  /* Remove default margin */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}
+
+/* Use popular font for headings */
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 1px;
+  color: white;
+  
+}
+
+h2 {
+  color: var(--primary-color);
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 1px;
+  /*
+  text-shadow:
+  -4px -4px 0 #000000,
+  4px -4px 0 #000000,
+  -4px 4px 0 #000000,
+  4px 4px 0 #000000;
+  */
+  
+}
+
+h3 {
+  color: #F5A623;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 1px;
+}
+
+p {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Add a modern color scheme */
+:root {
+  --primary-color: #0077C8;
+  --secondary-color: #F5A623;
+  --light-color: #F8F9FA;
+  --dark-color: #343A40;
+}
+
+/* Add a responsive grid layout */
+.container {
+  width: 100%;
+  /* Set max width for container */
+  margin: 0 auto;
+  /* Center container on page */
+  display: grid;
+  /* Use grid layout */
+  grid-template-columns: repeat(12, 1fr);
+  /* Create 12 equal columns */
+}
+
+.colored-header {
+  color: #03A9F4;
+}
+
+.emphasized {
+  font-style: italic;
+}
+
+.highlight{
+  text-align: center;
+  padding: .25em 0;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  background: #000000;
+  color: #ffffff;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  /* Remove default margin */
+  font-weight: bold;
+}
+
+a:hover {
+  color: #03A9F4;
+  /* Change the color of the link text when hovering over it */
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+
+.image-container img {
+  height: 400px;
+  padding-top: 10px;
+  padding-right: 40px;
+  display: block;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-container img:hover {
+  transform: scale(1.05);
+}

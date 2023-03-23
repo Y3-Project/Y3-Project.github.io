@@ -22,13 +22,14 @@ h1 {
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 1px;
   color: white;
-  
+
 }
 
 h2 {
-  color: var(--primary-color);
+  color: white;
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 1px;
+  font-style: italic;
   /*
   text-shadow:
   -4px -4px 0 #000000,
@@ -36,7 +37,7 @@ h2 {
   -4px 4px 0 #000000,
   4px 4px 0 #000000;
   */
-  
+
 }
 
 h3 {
@@ -70,21 +71,30 @@ p {
   /* Create 12 equal columns */
 }
 
-.colored-header {
-  color: #03A9F4;
+.colored-text {
+  color: var(--secondary-color);
 }
 
 .emphasized {
   font-style: italic;
 }
 
-.highlight{
+.highlight {
   text-align: center;
   padding: .25em 0;
   padding-left: 0.5em;
   padding-right: 0.5em;
   background: #000000;
   color: #ffffff;
+}
+
+.coloured-highlight {
+  text-align: center;
+  padding: .25em 0;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  background: #000000;
+  color: var(--secondary-color);
 }
 
 
